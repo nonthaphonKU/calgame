@@ -29,10 +29,3 @@ def check_answer():
 
 app.run(debug=True, port=8000)
 
-
-
-"""    if ((request.form.get('answer','0')) == '') or (((request.form.get('answer','0')).isdigit()) == False):
-        answer = 0
-    else:
-        answer = int(request.form.get('answer','0'))
-"""
